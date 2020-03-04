@@ -1,0 +1,2018 @@
+[
+  {
+    "Version": 1,
+    "Key": "55487",
+    "Type": "City",
+    "Rank": 20,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "K1P",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "CA",
+      "LocalizedName": "Canada",
+      "EnglishName": "Canada"
+    },
+    "AdministrativeArea": {
+      "ID": "ON",
+      "LocalizedName": "Ontario",
+      "EnglishName": "Ontario",
+      "Level": 1,
+      "LocalizedType": "Province",
+      "EnglishType": "Province",
+      "CountryID": "CA"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/Toronto",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 45.422,
+      "Longitude": -75.702,
+      "Elevation": {
+        "Metric": {
+          "Value": 36,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 118,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Ottawa",
+        "EnglishName": "Ottawa"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "55487",
+      "StationCode": "CXOA",
+      "StationGmtOffset": -5,
+      "BandMap": "CNON",
+      "Climo": "YOW",
+      "LocalRadar": "",
+      "MediaRegion": null,
+      "Metar": "CXOA",
+      "NXMetro": "",
+      "NXState": "ON_",
+      "Population": 931791,
+      "PrimaryWarningCountyCode": "",
+      "PrimaryWarningZoneCode": "",
+      "Satellite": "CANM",
+      "Synoptic": "71063",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "CNOTT",
+      "LocationStem": "ca/ottawa/k1p",
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "Environment Canada",
+          "SourceId": 3
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "Environment Canada",
+          "SourceId": 3
+        },
+        {
+          "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+          "Source": "Earth Networks",
+          "SourceId": 57
+        },
+        {
+          "DataType": "Radar",
+          "Source": "Environment and Climate Change Canada",
+          "SourceId": 59
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "K1P",
+      "CanonicalLocationKey": "55487"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "332743",
+    "Type": "City",
+    "Rank": 65,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "61350",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "IL",
+      "LocalizedName": "Illinois",
+      "EnglishName": "Illinois",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.346,
+      "Longitude": -88.843,
+      "Elevation": {
+        "Metric": {
+          "Value": 144,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 472,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "LaSalle",
+        "EnglishName": "LaSalle"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "332743",
+      "StationCode": "ILOT",
+      "StationGmtOffset": -6,
+      "BandMap": "USIL",
+      "Climo": "ILOT",
+      "LocalRadar": "KCHI",
+      "MediaRegion": "NC",
+      "Metar": "KVYS",
+      "NXMetro": "",
+      "NXState": "IL_",
+      "Population": 19258,
+      "PrimaryWarningCountyCode": "ILC099",
+      "PrimaryWarningZoneCode": "ILZ019",
+      "Satellite": "IL_",
+      "Synoptic": "72543",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "MLI",
+      "LocationStem": "us/ottawa-il/61350",
+      "DMA": {
+        "ID": "602",
+        "EnglishName": "Chicago, IL"
+      },
+      "PartnerID": "6",
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "61350",
+      "CanonicalLocationKey": "332743"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "333228",
+    "Type": "City",
+    "Rank": 65,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "66067",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "KS",
+      "LocalizedName": "Kansas",
+      "EnglishName": "Kansas",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 38.616,
+      "Longitude": -95.268,
+      "Elevation": {
+        "Metric": {
+          "Value": 272,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 892,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Franklin",
+        "EnglishName": "Franklin"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "333228",
+      "StationCode": "KS60",
+      "StationGmtOffset": -6,
+      "BandMap": "USKS",
+      "Climo": "LWC",
+      "LocalRadar": "KMKC",
+      "MediaRegion": "SC",
+      "Metar": "KLWC",
+      "NXMetro": "TOP",
+      "NXState": "KS_",
+      "Population": 12596,
+      "PrimaryWarningCountyCode": "KSC059",
+      "PrimaryWarningZoneCode": "KSZ056",
+      "Satellite": "KS_",
+      "Synoptic": "72456",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "TOP",
+      "LocationStem": "us/ottawa-ks/66067",
+      "DMA": {
+        "ID": "616",
+        "EnglishName": "Kansas City, MO"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "66067",
+      "CanonicalLocationKey": "333228"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "335061",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "45875",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "OH",
+      "LocalizedName": "Ohio",
+      "EnglishName": "Ohio",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.019,
+      "Longitude": -84.047,
+      "Elevation": {
+        "Metric": {
+          "Value": 222,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 728,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Putnam",
+        "EnglishName": "Putnam"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "335061",
+      "StationCode": "OH23",
+      "StationGmtOffset": -5,
+      "BandMap": "USOH",
+      "Climo": "AOH",
+      "LocalRadar": "KCVG",
+      "MediaRegion": "NE",
+      "Metar": "KAOH",
+      "NXMetro": "",
+      "NXState": "OH_",
+      "Population": 4456,
+      "PrimaryWarningCountyCode": "OHC137",
+      "PrimaryWarningZoneCode": "OHZ016",
+      "Satellite": "OH_",
+      "Synoptic": "72536",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "TOL",
+      "LocationStem": "us/ottawa-oh/45875",
+      "DMA": {
+        "ID": "547",
+        "EnglishName": "Toledo, OH"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "45875",
+      "CanonicalLocationKey": "335061"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "299034",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "ZA",
+      "LocalizedName": "South Africa",
+      "EnglishName": "South Africa"
+    },
+    "AdministrativeArea": {
+      "ID": "NL",
+      "LocalizedName": "Kwazulu-Natal",
+      "EnglishName": "Kwazulu-Natal",
+      "Level": 1,
+      "LocalizedType": "Province",
+      "EnglishType": "Province",
+      "CountryID": "ZA"
+    },
+    "TimeZone": {
+      "Code": "SAST",
+      "Name": "Africa/Johannesburg",
+      "GmtOffset": 2,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": -29.667,
+      "Longitude": 31.033,
+      "Elevation": {
+        "Metric": {
+          "Value": 29,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 95,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Ethekwini",
+        "EnglishName": "Ethekwini"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts"
+    ],
+    "Details": {
+      "Key": "299034",
+      "StationCode": "ZA0313",
+      "StationGmtOffset": 2,
+      "BandMap": "ZA",
+      "Climo": "FALE",
+      "LocalRadar": "",
+      "MediaRegion": null,
+      "Metar": "FALE",
+      "NXMetro": "",
+      "NXState": "",
+      "Population": 1782,
+      "PrimaryWarningCountyCode": "",
+      "PrimaryWarningZoneCode": "",
+      "Satellite": "AFRS",
+      "Synoptic": "68583",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "",
+      "LocationStem": "za/ottawa/299034",
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+          "Source": "Earth Networks",
+          "SourceId": 57
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "",
+      "CanonicalLocationKey": "299034"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2249771",
+    "Type": "City",
+    "Rank": 285,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "53118",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "WI",
+      "LocalizedName": "Wisconsin",
+      "EnglishName": "Wisconsin",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 42.973,
+      "Longitude": -88.484,
+      "Elevation": {
+        "Metric": {
+          "Value": 261,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 856,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Waukesha",
+        "EnglishName": "Waukesha"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2249771",
+      "StationCode": "WIOO",
+      "StationGmtOffset": -6,
+      "BandMap": "USWI",
+      "Climo": "KUES",
+      "LocalRadar": "KMKE",
+      "MediaRegion": "NC",
+      "Metar": "KUES",
+      "NXMetro": "MKE",
+      "NXState": "WI_",
+      "Population": 3851,
+      "PrimaryWarningCountyCode": "WIC133",
+      "PrimaryWarningZoneCode": "WIZ065",
+      "Satellite": "WI_",
+      "Synoptic": "72640",
+      "MarineStation": "LKPEW",
+      "MarineStationGMTOffset": -6,
+      "VideoCode": "MKE",
+      "LocationStem": "us/ottawa-wi/53118",
+      "DMA": {
+        "ID": "617",
+        "EnglishName": "Milwaukee, WI"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "53118",
+      "CanonicalLocationKey": "2249771"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2213544",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "50275",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "IA",
+      "LocalizedName": "Iowa",
+      "EnglishName": "Iowa",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.03,
+      "Longitude": -93.591,
+      "Elevation": {
+        "Metric": {
+          "Value": 310,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1016,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Clarke",
+        "EnglishName": "Clarke"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2213544",
+      "StationCode": "KI75",
+      "StationGmtOffset": -6,
+      "BandMap": "USIA",
+      "Climo": "KI75",
+      "LocalRadar": "KDSM",
+      "MediaRegion": "NC",
+      "Metar": "KI75",
+      "NXMetro": "",
+      "NXState": "IA_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "IAC039",
+      "PrimaryWarningZoneCode": "IAZ083",
+      "Satellite": "IA_",
+      "Synoptic": "72546",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "DSM",
+      "LocationStem": "us/ottawa-ia/50275",
+      "DMA": {
+        "ID": "679",
+        "EnglishName": "Des Moines-Ames, IA"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "50275",
+      "CanonicalLocationKey": "2213544"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2214548",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "50125",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "IA",
+      "LocalizedName": "Iowa",
+      "EnglishName": "Iowa",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.312,
+      "Longitude": -93.502,
+      "Elevation": {
+        "Metric": {
+          "Value": 253,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 829,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Warren",
+        "EnglishName": "Warren"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2214548",
+      "StationCode": "IA36",
+      "StationGmtOffset": -6,
+      "BandMap": "USIA",
+      "Climo": "DSM",
+      "LocalRadar": "KDSM",
+      "MediaRegion": "NC",
+      "Metar": "KDSM",
+      "NXMetro": "",
+      "NXState": "IA_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "IAC181",
+      "PrimaryWarningZoneCode": "IAZ073",
+      "Satellite": "IA_",
+      "Synoptic": "72546",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "DSM",
+      "LocationStem": "us/ottawa-ia/50125",
+      "DMA": {
+        "ID": "679",
+        "EnglishName": "Des Moines-Ames, IA"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "50125",
+      "CanonicalLocationKey": "2214548"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2179713",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "40409",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "KY",
+      "LocalizedName": "Kentucky",
+      "EnglishName": "Kentucky",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 37.362,
+      "Longitude": -84.456,
+      "Elevation": {
+        "Metric": {
+          "Value": 379,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1243,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Rockcastle",
+        "EnglishName": "Rockcastle"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2179713",
+      "StationCode": "KYCB",
+      "StationGmtOffset": -5,
+      "BandMap": "USKY",
+      "Climo": "KI39",
+      "LocalRadar": "KJKL",
+      "MediaRegion": "SE",
+      "Metar": "KI39",
+      "NXMetro": "",
+      "NXState": "KY_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "KYC203",
+      "PrimaryWarningZoneCode": "KYZ068",
+      "Satellite": "KY_",
+      "Synoptic": "72422",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "LEX",
+      "LocationStem": "us/ottawa-ky/40409",
+      "DMA": {
+        "ID": "541",
+        "EnglishName": "Lexington, KY"
+      },
+      "PartnerID": "41",
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "40409",
+      "CanonicalLocationKey": "2179713"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2226005",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "48133",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "MI",
+      "LocalizedName": "Michigan",
+      "EnglishName": "Michigan",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/Detroit",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.767,
+      "Longitude": -83.521,
+      "Elevation": {
+        "Metric": {
+          "Value": 183,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 600,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Monroe",
+        "EnglishName": "Monroe"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2226005",
+      "StationCode": "KDUH",
+      "StationGmtOffset": -5,
+      "BandMap": "USMI",
+      "Climo": "KDUH",
+      "LocalRadar": "KPTK",
+      "MediaRegion": "NE",
+      "Metar": "KDUH",
+      "NXMetro": "DTW",
+      "NXState": "MI_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "MIC115",
+      "PrimaryWarningZoneCode": "MIZ083",
+      "Satellite": "MI_",
+      "Synoptic": "72536",
+      "MarineStation": "LEZ142",
+      "MarineStationGMTOffset": -5,
+      "VideoCode": "TOL",
+      "LocationStem": "us/ottawa-mi/48133",
+      "DMA": {
+        "ID": "505",
+        "EnglishName": "Detroit, MI"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "48133",
+      "CanonicalLocationKey": "2226005"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2163199",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "74354",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "OK",
+      "LocalizedName": "Oklahoma",
+      "EnglishName": "Oklahoma",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 36.857,
+      "Longitude": -94.788,
+      "Elevation": {
+        "Metric": {
+          "Value": 262,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 859,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Ottawa",
+        "EnglishName": "Ottawa"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2163199",
+      "StationCode": "OK32",
+      "StationGmtOffset": -6,
+      "BandMap": "USOK",
+      "Climo": "OK32",
+      "LocalRadar": "KTUL",
+      "MediaRegion": "SC",
+      "Metar": "KGMJ",
+      "NXMetro": "",
+      "NXState": "OK_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "OKC115",
+      "PrimaryWarningZoneCode": "OKZ058",
+      "Satellite": "OK_",
+      "Synoptic": "72356",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "",
+      "LocationStem": "us/ottawa-ok/74354",
+      "DMA": {
+        "ID": "603",
+        "EnglishName": "Joplin, MO-Pittsburg, KS"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "74354",
+      "CanonicalLocationKey": "2163199"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2181993",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "17821",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "PA",
+      "LocalizedName": "Pennsylvania",
+      "EnglishName": "Pennsylvania",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 41.082,
+      "Longitude": -76.704,
+      "Elevation": {
+        "Metric": {
+          "Value": 165,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 541,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Montour",
+        "EnglishName": "Montour"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2181993",
+      "StationCode": "PAMU",
+      "StationGmtOffset": -5,
+      "BandMap": "USPA",
+      "Climo": "IPT",
+      "LocalRadar": "KUNV",
+      "MediaRegion": "NE",
+      "Metar": "KIPT",
+      "NXMetro": "CXY",
+      "NXState": "PA_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "PAC093",
+      "PrimaryWarningZoneCode": "PAZ051",
+      "Satellite": "PA_",
+      "Synoptic": "72514",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "CXY",
+      "LocationStem": "us/ottawa-pa/17821",
+      "DMA": {
+        "ID": "577",
+        "EnglishName": "Wilkes Barre-Scranton, PA"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "17821",
+      "CanonicalLocationKey": "2181993"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "2151873",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Ottawa",
+    "EnglishName": "Ottawa",
+    "PrimaryPostalCode": "25149",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "WV",
+      "LocalizedName": "West Virginia",
+      "EnglishName": "West Virginia",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2020-03-08T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 37.959,
+      "Longitude": -81.817,
+      "Elevation": {
+        "Metric": {
+          "Value": 352,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1154,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Boone",
+        "EnglishName": "Boone"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "MinuteCast",
+      "Radar"
+    ],
+    "Details": {
+      "Key": "2151873",
+      "StationCode": "WV5183",
+      "StationGmtOffset": -5,
+      "BandMap": "USVA",
+      "Climo": "6L4",
+      "LocalRadar": "KCRW",
+      "MediaRegion": "NE",
+      "Metar": "K6L4",
+      "NXMetro": "",
+      "NXState": "VA_",
+      "Population": null,
+      "PrimaryWarningCountyCode": "WVC005",
+      "PrimaryWarningZoneCode": "WVZ026",
+      "Satellite": "VA_",
+      "Synoptic": "72414",
+      "MarineStation": "",
+      "MarineStationGMTOffset": null,
+      "VideoCode": "CRW",
+      "LocationStem": "us/ottawa-wv/25149",
+      "DMA": {
+        "ID": "564",
+        "EnglishName": "Charleston-Huntington, WV"
+      },
+      "PartnerID": null,
+      "Sources": [
+        {
+          "DataType": "CurrentConditions",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyAirQualityForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "DailyPollenForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "ForecastConfidence",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "HourlyForecast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "MinuteCast",
+          "Source": "AccuWeather",
+          "SourceId": 1
+        },
+        {
+          "DataType": "Radar",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Severe Weather Push Notifications",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "Alerts",
+          "Source": "U.S. National Weather Service",
+          "SourceId": 2
+        },
+        {
+          "DataType": "AirQualityCurrentConditions",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        },
+        {
+          "DataType": "AirQualityForecasts",
+          "Source": "Plume Labs",
+          "SourceId": 63
+        }
+      ],
+      "CanonicalPostalCode": "25149",
+      "CanonicalLocationKey": "2151873"
+    }
+  }
+]
