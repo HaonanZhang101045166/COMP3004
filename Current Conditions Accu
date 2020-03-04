@@ -1,0 +1,5 @@
+{
+  "Code": "400",
+  "Message": "Invalid location key: locationKey",
+  "Reference": "/currentconditions/v1/locationKey?language=en-us&details=true&apikey=95df38db964c4236936b1e894ad2232f"
+}
