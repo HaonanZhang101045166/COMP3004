@@ -1,0 +1,1 @@
+Fix the "suggestion" part while user click the icon for weather and it returns null, now it can show the proper texts.
