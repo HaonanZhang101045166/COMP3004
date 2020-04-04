@@ -1,0 +1,8 @@
+2020/01/29
+set up alarm time
+private void setAlarmTime(final int year,
+			final int monthOfYear, final int dayOfMonth) {
+		Calendar currentTime = Calendar.getInstance();
+		// Create a TimePickerDialog instance and display it。
+		new TimePickerDialog(MainActivity.this, 0, // Bind listener
+				new TimePickerDialog.OnTimeSetListener() {
