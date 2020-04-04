@@ -1,5 +1,5 @@
 					2020/01/29
-          Set alarm time
+          Set up date
           public void onDateSet(DatePicker view, int year,
 							int monthOfYear, int dayOfMonth) {
 
