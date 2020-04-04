@@ -1,0 +1,4 @@
+2020/1/20
+Check various alarm registration information
+Use AlarmManger to implement the execution of scheduled tasks
+To achieve a simple layout, write two Buttons in the layout, one set and one cancel
