@@ -1,0 +1,3 @@
+2020/02/15
+Set multiple alarms
+int id = dbOperator.getAlarmId (time); // Get the id of the newly added clock in the database
