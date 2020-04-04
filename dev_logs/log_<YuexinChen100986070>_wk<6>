@@ -1,0 +1,15 @@
+					2020/01/29
+          Set alarm time
+          public void onDateSet(DatePicker view, int year,
+							int monthOfYear, int dayOfMonth) {
+
+						c.set(Calendar.YEAR, year);
+						c.set(Calendar.MONTH, monthOfYear);
+						c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+						setAlarmTime(year,monthOfYear,dayOfMonth);
+					}
+				}, currentDate.get(Calendar.YEAR), 
+				currentDate.get(Calendar.MONTH),
+				currentDate.get(Calendar.DAY_OF_MONTH));
+
+		datePickerDialog.show();
